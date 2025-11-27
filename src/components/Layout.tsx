@@ -22,7 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between px-6 rounded-none bg-[#cad4e085]">
+        <div className="container flex h-16 items-center justify-between rounded-none bg-[#cad4e085] px-0">
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2">
               <div className="bg-gradient-to-r from-primary to-secondary p-2 rounded-lg">
